@@ -1,0 +1,47 @@
+# http://www.gnu.org/software/automake
+
+Makefile.in
+
+# http://www.gnu.org/software/autoconf
+
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+
+# for all subdirectories
+.libs
+.deps
+*.o
+*.s
+*.lo
+*.la
+*.pc
+.*.swp
+.sw?
+*.rc
+*.gcno
+*.gcda
+*.gcov
+*.sourcefiles
+*.stp
+
+# autofoo stuff here
+compile
+config.*
+configure
+depcomp
+aclocal.m4
+autom4te.cache
+stamp-*
+libtool
+ltmain.sh
+missing
+install-sh
+glib-gettextize
+gtk-doc.make
+
+*.spec
